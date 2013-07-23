@@ -20,18 +20,18 @@ W.I.P
 
 Travis iOS uses the latest Testing Framework released by Apple with iOS 7.0: XCTest.
 
-You can run the tests using [XCode](#XCode) or with the [Terminal](#Terminal).
+You can run the tests using [XCode](#xcode) or with the [Terminal](#terminal).
 
 #### XCode
 
-* Follow the [Installation](#Installation) instructions
+* Follow the [Installation](#installation) instructions
 * Open the `travis_ios.xcworkspace` file
 * In the menu bar, click on `Product` > `Test` or simply use the shortcut ` + U`
 * Wait and See!
 
 #### Terminal
 
-* Follow the [Installation](#Installation) instructions
+* Follow the [Installation](#installation) instructions
 * Go to the project's folder
 * run ```shell xcodebuild -target travis_ios -scheme travis_ios -sdk iphonesimulator7.0 test```
 
