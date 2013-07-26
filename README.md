@@ -33,8 +33,7 @@ You can run the tests using [XCode](#xcode) or with the [Terminal](#terminal).
 
 * Follow the [Installation](#installation) instructions
 * Go to the project's folder
-* run ```shell xcodebuild -target travis_ios -scheme travis_ios -sdk iphonesimulator7.0 test```
-
+* run `xcodebuild -workspace travis_ios.xcworkspace -scheme travis_ios -sdk iphonesimulator7.0 test`
 
 ## Contribute
 
