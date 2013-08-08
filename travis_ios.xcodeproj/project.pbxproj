@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A06739B17B433D000E69798 /* FIOTravisAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A06739A17B433D000E69798 /* FIOTravisAPI.m */; };
 		1A20DD09980D4857922AF5BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C138002B94BB194A922C0 /* libPods.a */; };
 		71CC182D1795F8EF007C7C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CC182C1795F8EF007C7C2D /* Foundation.framework */; };
 		71CC182F1795F8EF007C7C2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CC182E1795F8EF007C7C2D /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A06739917B433D000E69798 /* FIOTravisAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIOTravisAPI.h; path = API/FIOTravisAPI.h; sourceTree = "<group>"; };
+		0A06739A17B433D000E69798 /* FIOTravisAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIOTravisAPI.m; path = API/FIOTravisAPI.m; sourceTree = "<group>"; };
 		5F2C138002B94BB194A922C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		71410B6F17A2E34200BDEF91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71410B7017A2E34200BDEF91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -83,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A06739817B42F1600E69798 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0A06739917B433D000E69798 /* FIOTravisAPI.h */,
+				0A06739A17B433D000E69798 /* FIOTravisAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		71CC18201795F8EF007C7C2D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		71CC18321795F8EF007C7C2D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0A06739817B42F1600E69798 /* API */,
 				71CC183B1795F8EF007C7C2D /* FIOAppDelegate.h */,
 				71CC183C1795F8EF007C7C2D /* FIOAppDelegate.m */,
 				71CC18331795F8EF007C7C2D /* Supporting Files */,
@@ -322,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A06739B17B433D000E69798 /* FIOTravisAPI.m in Sources */,
 				71CC18391795F8EF007C7C2D /* main.m in Sources */,
 				71CC183D1795F8EF007C7C2D /* FIOAppDelegate.m in Sources */,
 			);
