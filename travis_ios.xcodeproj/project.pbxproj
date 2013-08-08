@@ -49,7 +49,7 @@
 		71CC183A1795F8EF007C7C2D /* travis_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "travis_ios-Prefix.pch"; sourceTree = "<group>"; };
 		71CC183B1795F8EF007C7C2D /* FIOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIOAppDelegate.h; sourceTree = "<group>"; };
 		71CC183C1795F8EF007C7C2D /* FIOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIOAppDelegate.m; sourceTree = "<group>"; };
-		71CC183E1795F8EF007C7C2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = travis_ios/Images.xcassets; sourceTree = "<group>"; };
+		71CC183E1795F8EF007C7C2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71CC18441795F8EF007C7C2D /* travis_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travis_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CC184D1795F8EF007C7C2D /* travis_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travis_iosTests-Info.plist"; sourceTree = "<group>"; };
 		71CC184F1795F8EF007C7C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				71CC18331795F8EF007C7C2D /* Supporting Files */,
 			);
 			name = Classes;
-			path = travis_ios;
+			path = travis_ios/Classes;
 			sourceTree = "<group>";
 		};
 		71CC18331795F8EF007C7C2D /* Supporting Files */ = {
@@ -134,7 +134,7 @@
 				71CC18381795F8EF007C7C2D /* main.m */,
 				71CC183A1795F8EF007C7C2D /* travis_ios-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		71CC184B1795F8EF007C7C2D /* Tests */ = {
@@ -163,6 +163,7 @@
 				71DFD02217A2DF4700AC3064 /* Storyboards */,
 			);
 			name = Resources;
+			path = travis_ios/Resources;
 			sourceTree = "<group>";
 		};
 		71DFD02117A2DF3F00AC3064 /* Assets */ = {
@@ -170,7 +171,7 @@
 			children = (
 				71CC183E1795F8EF007C7C2D /* Images.xcassets */,
 			);
-			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		71DFD02217A2DF4700AC3064 /* Storyboards */ = {
@@ -179,7 +180,7 @@
 				71DFD01A17A2D24900AC3064 /* iPhone.storyboard */,
 				71DFD01D17A2D25700AC3064 /* iPad.storyboard */,
 			);
-			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +233,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = FanaticIO;
 				TargetAttributes = {
+					71CC18281795F8EF007C7C2D = {
+						DevelopmentTeam = 53YV934SBC;
+					};
 					71CC18431795F8EF007C7C2D = {
 						TestTargetID = 71CC18281795F8EF007C7C2D;
 					};
@@ -439,9 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis_ios/travis_ios-Prefix.pch";
-				INFOPLIST_FILE = "travis_ios/travis_ios-Info.plist";
+				GCC_PREFIX_HEADER = "travis_ios/Classes/Supporting Files/travis_ios-Prefix.pch";
+				INFOPLIST_FILE = "travis_ios/Classes/Supporting Files/travis_ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,9 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis_ios/travis_ios-Prefix.pch";
-				INFOPLIST_FILE = "travis_ios/travis_ios-Info.plist";
+				GCC_PREFIX_HEADER = "travis_ios/Classes/Supporting Files/travis_ios-Prefix.pch";
+				INFOPLIST_FILE = "travis_ios/Classes/Supporting Files/travis_ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -477,7 +483,7 @@
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis_ios/travis_ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "travis_ios/Classes/Supporting Files/travis_ios-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -499,7 +505,7 @@
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis_ios/travis_ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "travis_ios/Classes/Supporting Files/travis_ios-Prefix.pch";
 				INFOPLIST_FILE = "travis_iosTests/travis_iosTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

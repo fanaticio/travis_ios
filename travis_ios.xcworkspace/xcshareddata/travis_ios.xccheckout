@@ -2,35 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2C15FAAA-5B5E-4783-9755-50D6DDDF9A2B</string>
+	<string>545F53F5-2656-4CDA-ABC7-7063E2B1775E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>travis_ios</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>07D464FB-20A5-444B-8762-ACBCAF12FB63</key>
-		<string>ssh://github.com/fanaticio/travis_ios.git</string>
+		<key>9441AAAF-EE1B-4FC1-8AA7-0E6414784B03</key>
+		<string>ssh://github.com/fanaticio/travis_ios</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>travis_ios.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>07D464FB-20A5-444B-8762-ACBCAF12FB63</key>
+		<key>9441AAAF-EE1B-4FC1-8AA7-0E6414784B03</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/fanaticio/travis_ios.git</string>
+	<string>ssh://github.com/fanaticio/travis_ios</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>07D464FB-20A5-444B-8762-ACBCAF12FB63</string>
+	<string>9441AAAF-EE1B-4FC1-8AA7-0E6414784B03</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>07D464FB-20A5-444B-8762-ACBCAF12FB63</string>
+			<string>9441AAAF-EE1B-4FC1-8AA7-0E6414784B03</string>
 			<key>IDESourceControlWCCName</key>
 			<string>travis_ios</string>
 		</dict>
